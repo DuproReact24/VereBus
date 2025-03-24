@@ -1,0 +1,55 @@
+.filter-section {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-section h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .filter-section label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  .filter-section select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+  }
+  
+  .filter-section select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .filter-section select option {
+    padding: 10px;
+  }
+  
+  .filter-section select::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .filter-section select::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .filter-section select::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  .filter-section select::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  

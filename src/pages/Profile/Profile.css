@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 250px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul li:hover {
+    background: #e9ecef;
+}
+
+.sidebar ul li.active {
+    font-weight: bold;
+    color: black;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tab.active {
+    border-bottom: 3px solid blue;
+    font-weight: bold;
+}
+
+.no-orders {
+    margin-top: 20px;
+    font-size: 16px;
+}

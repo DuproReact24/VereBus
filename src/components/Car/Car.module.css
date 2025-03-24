@@ -1,0 +1,285 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+    width: 900px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 16px;
+  }
+  
+  .imageContainer {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: green;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+  
+  .content {
+    padding: 12px;
+  }
+  
+  .companyName {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .rating {
+    color: #ffa500;
+    font-size: 14px;
+  }
+  
+  .busType {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .schedule {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  .duration {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .priceContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  
+  .discountedPrice {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .originalPrice {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .discount {
+    background: #ff0000;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  
+  .remainingSeats {
+    font-size: 14px;
+    color: #28a745;
+  }
+  
+  .bookButton {
+    background: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .bookButton:hover {
+    background: #e64a19;
+  }
+  
+  .notice {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8px;
+    color: black;
+  }
+  
+  .seatSelection {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background:white;
+  }
+  
+  .seatTypes {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .seatOption {
+    background: #ddd;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+
+  .seatRow {
+    display: flex;
+    gap: 10px;
+  }
+  
+ 
+  
+  .confirmButton {
+    margin-top: 10px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .confirmButton:hover {
+    background: #0056b3;
+  }
+  .seat__row{
+   
+    height: 380px;
+    background: rgb(242, 242, 242);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+  }
+
+  .seat {
+    position: relative;
+    background-color: white; /* Default seat color */
+    height: 33.27px;
+    width: 25.27px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .seat:hover {
+    background-color: #f0f0f0; /* Hover effect for normal seats */
+  }
+  
+  .booked {
+    background-color: silver; /* Color for booked seats */
+    cursor: not-allowed;
+  }
+  
+  .selected {
+    background-color: #4caf50; /* Color for selected seats */
+    color: white;
+  }
+  
+  .seats{
+    position: absolute;
+    height: 6.5px;
+    background-color: wheat;
+    top: 70%;
+    left: 22%;
+    z-index: 1;
+    width: 15.5px;
+    border-radius: 20px;
+
+  }
+
+  .pickupDropoff {
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .pickupDropoffContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .pickup, .dropoff {
+    flex: 1;
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .pickup h4, .dropoff h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .pickupOptions label, .dropoffOptions label {
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  
+  .pickupOptions span, .dropoffOptions span {
+    font-weight: bold;
+    display: block;
+  }
+  
+  .pickupOptions p, .dropoffOptions p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .pickupDropoffFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .backButton, .continueButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .backButton {
+    background: #ddd;
+    color: #333;
+  }
+  
+  .backButton:hover {
+    background: #ccc;
+  }
+  
+  .continueButton {
+    background: #007bff;
+    color: white;
+  }
+  
+  .continueButton:hover {
+    background: #0056b3;
+  }

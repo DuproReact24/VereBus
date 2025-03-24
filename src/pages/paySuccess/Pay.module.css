@@ -1,0 +1,67 @@
+.ticketContainer {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .orderCode {
+    font-size: 14px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .section {
+    margin-bottom: 15px;
+  }
+  
+  .section h2 {
+    font-size: 16px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .totalPrice {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .primaryButton {
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .secondaryButton {
+    background-color: #ccc;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

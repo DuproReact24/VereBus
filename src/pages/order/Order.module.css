@@ -1,0 +1,151 @@
+.container {
+  display: flex;
+width: 80%;
+ margin: 30px auto;
+}
+
+.left {
+  flex: 2;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.right {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.loginPrompt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.loginPrompt p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.loginButton {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background: #0056b3;
+}
+
+.contactForm h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.phoneInput {
+  display: flex;
+  gap: 10px;
+}
+
+.phoneInput select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.notice {
+  margin-top: 20px;
+  background: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #28a745;
+}
+
+.notice i {
+  margin-right: 5px;
+}
+
+.summary h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.totalPrice {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+}
+
+.tripInfo h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.tripDetails {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.busImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.tripContent {
+  flex: 1;
+}
+
+.tripContent h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tripContent p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.changeLink {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.changeLink:hover {
+  text-decoration: underline;
+}
